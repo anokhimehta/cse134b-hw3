@@ -23,10 +23,11 @@
 }
 
 .responsive {
-    width: 100%;
+    width: 50%;
     max-width: 250px;
     height: auto;
 }
+
 
 body {
     background-color: var(--blue);
@@ -185,10 +186,9 @@ audio {
 footer {
     text-align: center;
 }
-/* #Ruckus {
-    display: flex;
-}
 
-#Ruckus>figure, audio, video {
-    display: inline-block;
-} */
+video {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
